@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+html { padding:0; margin:0;
+		
+}
+
+
+
+ 
+a:link { color: #fff; text-decoration: none; }
+a:visited { color: #fff; text-decoration: none; }
+a:hover { color: #000; font-weight:bold; text-decoration: none; }
+a:active { color: #fff; font-weight:bold; }
+*::-moz-selection {
+    background-color: #F0C; color: #fff;;
+}
+*::selection {
+    color: #fff; background-color: #000;}
+
+
+
+
+body {
+	color:#fff;
+background-color:#ee312b;
+width:100%; margin:0; padding:0;
+font-size:3.3vw;
+
+
+line-height:150%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+body {
+	 font-family: Helvetica, AppleSDGothicNeo-Regular, Noto Sans Korean, sans-serif;
+	 padding:0px;
+	 margin:0px;
+	 	 font-size:3.3vw;
+	 -webkit-text-size-adjust: 100%;
+	 -ms-text-size-adjust: none;
+	 background-color:#ee312b;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+
+}	
+	
+:lang(en) {
+	font-family: Helvetica, Arial,  sans-serif;
+	font-size:85%;
+}}
+
+
+
+
+@media only screen and (min-width: 280px) {
+.images { width:100%; position:absolute; margin-top:100px; text-align:center;
+}
+}
+
+@media only screen and (min-width: 1080px) {
+.images { width:10%; position:absolute; margin-top:0px; text-align:center;
+}
+}
+
+
+
+
+@media only screen and (min-width: 280px) {
+.images { width:80%; position:relative;  border: solid 8px #000;   opacity:0.9;
+}
+}
+
+@media only screen and (min-width: 1080px) {
+.images { width:90%; position:relative; border: solid 17px #000; opacity:0.9; 
+}
+}
+
+.blank { opacity:0; font-size:20px;}
+.right { text-align:right; display:block;}
+
+
+	
+
+
+.header { width:100%; display:none; position:fixed; top:0%; margin:0 auto; z-index:-1;}
+.footer { width:100%; position:fixed; bottom:0%; margin:0 auto; z-index:1;}
+
+
+
+
+.content-box-left {
+	width:100%;
+    box-shadow: 0px 0px 35px #fff;	
+}
+
+.content-box-left-background {
+	width:100%;
+	background-image: url(http://xpo.co.kr/backgroundxpo.png);
+	background-size:100%;
+    box-shadow: 0px 0px 35px #fff;	
+}
+
+
+.content-box {
+	width:100%;
+    box-shadow: 0px 0px 35px #fff;	 
+}
+
+.content-box-background {
+	width:100%;
+	background-image: url(http://xpo.co.kr/backgroundxpo.png);
+	background-size:100%;
+    box-shadow: 0px 0px 35px #fff;	
+}
+
+
+.column-container{
+	display:table;
+	width:100%;
+}
+
+
+.column-container-box{
+	display:table-row;
+}
+.column01 { display:table-cell; 
+	padding-top:1em; z-index:1; width:31%;}
+.column02 { display:table-cell; 
+	padding-top:1em; z-index:1;width:69%; text-align:justify;}
+
+
+
+
+
+.column01-menu { display:table-cell; padding:1em; z-index:1; width:55%;  word-break : keep-all;}
+.column02-menu { display:table-cell; padding:1em; z-index:1;width:45%; word-break : keep-all;}
+
+
+@media screen and (max-width:680px) {
+body {  font-size:5.3vw;   width:100%; margin:0 auto; padding:0; }
+.column01-menu { display:inline-block;  padding:1em;  z-index:1; width:98%;  word-break : keep-all;}
+.column02-menu { display:inline-block;  padding:1em; z-index:1;width:98%; word-break : keep-all;}
+.column-container{ display:table; width:90%;}
+
+
+
+
+
+}
+
+
+
+
+.neinfest-logo-top-center { width:100%; margin:0 auto; top:0%; text-align:center; position:fixed; z-index:1; }
+.neinfest-logo-top { padding:1em; text-align:center;}
+
+.neinfest-logo-bottom-center { width:100%; margin:0 auto; bottom:0%; text-align:center; position:fixed; z-index:2;}
+.neinfest-logo-bottom { padding:0.5em; text-align:center;}
+
+
+.title-center { margin:0 auto; width:100%; text-align:center;}
+.title { padding:1em; text-align:center; white-space: nowrap;}
+
+.logo-size { width:24%;}
+
+.artist-list-title { margin-top:30px; font-size:17px; line-height:1.8; text-align:left;}
+
+.artist-list { font-size:13px; line-height:1.4; text-align:left; background-color:#ee312b; width:250px;}
+	
